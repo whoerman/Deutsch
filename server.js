@@ -6,6 +6,7 @@
 // =============================================================
 var express = require("express");
 require("dotenv").config();
+const path = require("path");
 
 // Sets up the Express App
 // =============================================================
@@ -18,12 +19,13 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Static directory to be served
-app.use(express.static("app/public"));
+app.use(express.static(__dirname + '/public'));
 
 // Set Handlebars.
 var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
+require("handlebars-helpers");
 
 // Import routes and give the server access to them.
 var routes = require("./controllers/controller.js");
