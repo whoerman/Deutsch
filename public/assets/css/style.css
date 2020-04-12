@@ -1,0 +1,9 @@
+/* main css for the handlebars */
+body {
+    background: url("/public/assets/images/genericBackground.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    flex: content;
+  }
