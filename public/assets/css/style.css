@@ -1,6 +1,6 @@
 /* main css for the handlebars */
 body {
-    background: url("./images/genericBackground.jpg") no-repeat center center fixed;
+    background: url("/assets/images/germanscenery.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -9,5 +9,13 @@ body {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: rem;
+  }
+
+  .header {
+    background-color: #fceed1;
+  }
+
+  .maincontainer {
+    background-color: #fceed1;
   }

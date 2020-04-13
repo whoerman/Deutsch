@@ -10,6 +10,14 @@ var Basic = require("../models");
 // Create the routes
 router.get("/", function(req, res) {
     res.render("index")
+});
+
+router.get("/nouns", function(req, res) {
+    res.render("nouns")
+});
+
+router.get("/phrases", function(req, res) {
+    res.render("phrases")
 })
 
 module.exports = router
