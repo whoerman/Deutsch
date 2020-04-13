@@ -1,6 +1,8 @@
 $(document).ready(function () {
     $("#newNoun").on("submit", function (event) {
       event.preventDefault();
+
+      console.log("button pushed");
   
       if (
         !$("#genderselect").val() ||

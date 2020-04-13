@@ -1,7 +1,7 @@
 {{> mainheader}}
 
 <div class="container maincontainer">
-    <div class="row m-3">
+    <div class="row justify-content-center m-3">
         <div class="col-2-md mr-4 mt-4">
             <h5>Input a German Noun:</h5>
         </div>
@@ -10,7 +10,7 @@
         </div>
     </div>
     <form>
-        <div class="row m-3">
+        <div class="row justify-content-center m-3">
             <div class="col-2-md">
                 <div class="form-group">
                     <label name="gender" for="genderselect">Gender</label>
@@ -29,125 +29,33 @@
                 </div>
             </div>
             <div class="col-2-md">
-                <div class="form-group">
+                <div class="form-group mr-4">
                     <label for="pluralnoun">Plural</label>
                     <input type="text" name="pluralnoun" class="form-control" id="pluralnoun" placeholder="plural form">
                 </div>
             </div>
-
-            <div class="col-2-md ml-4">
+            <div class="col-2-md">
                 <div class="form-group">
-                    <label name="person" for="personselect">Person</label>
-                    <select class="form-control  text-center" id="personselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
+                    <label for="englishdefinition">English definition</label>
+                    <input type="text" name="englishdefinition" class="form-control" id="englishdefinition"
+                        placeholder="English definitions...">
                 </div>
             </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="animal" for="animalselect">Animal</label>
-                    <select class="form-control  text-center" id="animalselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="thing" for="thingselect">Thing</label>
-                    <select class="form-control  text-center" id="thingselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="place" for="placeselect">Place</label>
-                    <select class="form-control  text-center" id="placeselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        <div class="row ml-3">
-            <h5>Situations where the word might be used (can be broad):</h5>
-        </div>
-        <div class="row">
-            <div class ="col-2-md ml-4">
-                 <div class="form-group">
-                    <label name="athome" for="athomeselect">At Home</label>
-                    <select class="form-control  text-center" id="athomeselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-                        <div class ="col-2-md ml-4">
-                 <div class="form-group">
-                    <label name="atwork" for="atworkselect">At Work</label>
-                    <select class="form-control  text-center" id="atworkselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-                        <div class ="col-2-md ml-4">
-                 <div class="form-group">
-                    <label name="dining" for="diningselect">Dining</label>
-                    <select class="form-control  text-center" id="diningselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-                        <div class ="col-2-md ml-4">
-                 <div class="form-group">
-                    <label name="hotel" for="hotelselect">Hotel</label>
-                    <select class="form-control  text-center" id="hotelselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-                        <div class ="col-2-md ml-4">
-                 <div class="form-group">
-                    <label name="travel" for="travelselect">Travel</label>
-                    <select class="form-control  text-center" id="travelselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-                        <div class ="col-2-md ml-4">
-                 <div class="form-group">
-                    <label name="people" for="peopleselect">People</label>
-                    <select class="form-control  text-center" id="peopleselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-                        <div class ="col-2-md ml-4">
-                 <div class="form-group">
-                    <label name="events" for="eventsselect">Events</label>
-                    <select class="form-control  text-center" id="eventsselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-                        <div class ="col-2-md ml-4">
-                 <div class="form-group">
-                    <label name="shopping" for="shoppingselect">Shopping</label>
-                    <select class="form-control  text-center" id="shoppingselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-        </div>
     </form>
+
+    <div class = "row justify-content-center">
+        {{> type }}
+
+        {{> situations}}
+    </div>
+
+
+    <div class="row justify-content-end">
+        <div class="col-2-md m-4">
+            <input id="newNoun" class="btn btn-primary" type="submit" value="Submit">
+        </div>
+    </div>
+
 </div>
+
+<script src="../assets/js/nouns.js"></script>
