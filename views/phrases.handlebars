@@ -3,159 +3,47 @@
 <div class="container maincontainer">
     <div class="row m-3 justify-content-center">
         <div class="col-2-md mr-4 mt-4">
-            <h5><em>German Phrases Database Generator</em> - Input a German Noun:</h5>
+            <h5><em>German Phrases Database Generator</em> - Input a German Phrase:</h5>
         </div>
         <div class="col-2-md ml-4 mt-4">
             <h5>Word bank for umlaut: ä ö ü Ä Ö Ü</h5>
         </div>
     </div>
-    <form id="newNoun" name="newNoun">
-        <div class="row m-3">
-            <div class="col-2-md">
-                <div class="form-group">
-                    <label name="gender" for="genderselect">Gender</label>
-                    <select class="form-control  text-center" id="genderselect">
-                        <option>der</option>
-                        <option>die</option>
-                        <option>das</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md">
+    <form id="newPhrase" name="newPhrase">
+        <div class="row m-3 justify-content-around">
+            <div class="col-5-md">
                 <div class="form-group mr-4">
-                    <label for="singularnoun">New Noun</label>
-                    <input type="text" name="singularnoun" class="form-control" id="singularnoun"
-                        placeholder="singular form">
+                    <label for="germanphrase">German Phrase</label>
+                    <input type="text" name="germanphrase" class="form-control" id="germanphrase"
+                        placeholder="German Phrase...">
                 </div>
             </div>
-            <div class="col-2-md">
+            <div class="col-5-md">
                 <div class="form-group">
-                    <label for="pluralnoun">Plural</label>
-                    <input type="text" name="pluralnoun" class="form-control" id="pluralnoun" placeholder="plural form">
+                    <label for="pluralnoun">English Translation</label>
+                    <input type="text" name="englishphrase" class="form-control" id="englishphrase" placeholder="English translation">
                 </div>
             </div>
+            <div class="col-5-md">
+                <div class="form-group">
+                    <label for="pluralnoun">Alternate English Translation</label>
+                    <input type="text" name="englishphrase2" class="form-control" id="englishphrase2" placeholder="English translation">
+                </div>
+            </div>
+ </form>
 
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="person" for="personselect">Person</label>
-                    <select class="form-control  text-center" id="personselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="animal" for="animalselect">Animal</label>
-                    <select class="form-control  text-center" id="animalselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="thing" for="thingselect">Thing</label>
-                    <select class="form-control  text-center" id="thingselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="place" for="placeselect">Place</label>
-                    <select class="form-control  text-center" id="placeselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <h5>Situations where the word might be used (can be broad):</h5>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="athome" for="athomeselect">At Home</label>
-                    <select class="form-control  text-center" id="athomeselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="atwork" for="atworkselect">At Work</label>
-                    <select class="form-control  text-center" id="atworkselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="dining" for="diningselect">Dining</label>
-                    <select class="form-control  text-center" id="diningselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="hotel" for="hotelselect">Hotel</label>
-                    <select class="form-control  text-center" id="hotelselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="travel" for="travelselect">Travel</label>
-                    <select class="form-control  text-center" id="travelselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="people" for="peopleselect">People</label>
-                    <select class="form-control  text-center" id="peopleselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="events" for="eventsselect">Events</label>
-                    <select class="form-control  text-center" id="eventsselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-2-md ml-4">
-                <div class="form-group">
-                    <label name="shopping" for="shoppingselect">Shopping</label>
-                    <select class="form-control  text-center" id="shoppingselect">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-end">
-            <div class="col-2-md m-4">
-                <input id="newNoun" class="btn btn-primary" type="submit" value="Submit">
-            </div>
+    <div class = "row justify-content-center">
 
+        {{> situations}}
+    </div>
+
+
+    <div class="row justify-content-end">
+        <div class="col-2-md m-4">
+            <input id="newPhrase" class="btn btn-primary" type="button" value="Submit">
         </div>
-    </form>
+    </div>
+
 </div>
 
-<script src="../assets/js/nouns.js"></script>
+<script src="../assets/js/phrase.js"></script>

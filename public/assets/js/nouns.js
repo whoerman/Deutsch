@@ -1,8 +1,10 @@
 console.log("run noun.js");
 
-//Click button
+//Click button to get all the form inputs
 $("#newNoun").on("click", function (event) {
   event.preventDefault();
+
+  //make sure all the forms have data
   if (
     !$("#genderselect").val() ||
     !$("#singularnoun").val() ||
@@ -13,6 +15,7 @@ $("#newNoun").on("click", function (event) {
     return;
   };
 
+  //seperate form groups becuase of multiple handlebars
   let newNounText = {
     gender: $("#genderselect").val().trim(),
     singular: $("#singularnoun").val().trim(),
@@ -39,21 +42,30 @@ $("#newNoun").on("click", function (event) {
     shopping: $("#shoppingselect").val().trim(),
   };
 
-  let newNounData = {...newNounText, ...newNounType, ...newNounSituation};
+  //put all the data into one noun object
+  let newNounData = {
+    ...newNounText,
+    ...newNounType,
+    ...newNounSituation
+  };
 
-  console.log(newNounData);
+  //change yes no responses to true false (object to array first)
+  const newNounArray = Object.entries(newNounData);
+  newNounArray.forEach(function (index) {
+    if (index[1] === "Yes") {
+      index[1] = true
+    };
+    if (index[1] === "No") {
+      index[1] = false
+    }
+  });
+
+  //changing the array back to an object
+  let finalNounObj = newNounArray.reduce(function (aspect, curr) {
+    aspect[curr[0]] = curr[1];
+    return aspect;
+  }, {});
+
+  console.log(finalNounObj)
 });
 
-
-
-
-
-
-
-// $.ajax({
-//   method: "POST",
-//   url: "/api/newCompany",
-//   data: companyData,
-// }).then(function () {
-//   window.location.href = "/login";
-// });
