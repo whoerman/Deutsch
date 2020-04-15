@@ -36,7 +36,8 @@ router.get("/otherparts", function(req, res) {
     res.render("otherparts")
 });
 
-
-
+router.get("/quiz", function(req, res) {
+    res.render("quiz")
+});
 
 module.exports = router
