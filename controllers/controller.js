@@ -36,6 +36,14 @@ router.get("/otherparts", function(req, res) {
     res.render("otherparts")
 });
 
+router.get("/verbsirreg", function(req, res) {
+    res.render("verbsirreg")
+});
+
+router.get("/verbsreg", function(req, res) {
+    res.render("verbsreg")
+});
+
 router.get("/quiz", function(req, res) {
     res.render("quiz")
 });
