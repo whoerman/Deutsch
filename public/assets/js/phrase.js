@@ -55,5 +55,7 @@ let finalPhraseObj = newPhraseArray.reduce(function (aspect, curr) {
 }, {});
 
 console.log(finalPhraseObj)
+
+console.log("then i will post finalPhraseObj")
 });
 

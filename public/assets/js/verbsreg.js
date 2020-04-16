@@ -48,13 +48,13 @@ newVerbArray.forEach(function (index) {
 });
 
 //changing the array back to an object
-let finalVerbObj = newVerbArray.reduce(function (aspect, curr) {
+let finalregVerbObj = newVerbArray.reduce(function (aspect, curr) {
   aspect[curr[0]] = curr[1];
   return aspect;
 }, {});
 
-console.log(finalVerbObj);
+console.log(finalregVerbObj);
 
-console.log ("then i will post finalVerbObj")
+console.log ("then i will post finalregVerbObj")
 });
 

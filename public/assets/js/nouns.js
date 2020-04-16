@@ -67,5 +67,15 @@ $("#newNoun").on("click", function (event) {
   }, {});
 
   console.log(finalNounObj)
+
+  console.log("then I will post the finalNounObj")
+
+  $.ajax({
+    method: "POST",
+    url: "/api/newCompany",
+    data: finalNounObj,
+  }).then(function () {
+    window.location.href = "/login";
+  });
 });
 
