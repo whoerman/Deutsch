@@ -1,3 +1,4 @@
+  
 console.log("run noun.js");
 
 //Click button to get all the form inputs
@@ -70,12 +71,7 @@ $("#newNoun").on("click", function (event) {
 
   console.log("then I will post the finalNounObj")
 
-  $.ajax({
-    method: "POST",
-    url: "/api/newCompany",
-    data: finalNounObj,
-  }).then(function () {
-    window.location.href = "/login";
-  });
+  
+
 });
 
