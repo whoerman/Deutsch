@@ -14,7 +14,8 @@
             <div class="col-2-md">
                 <div class="form-group mr-4">
                     <label for="adjective">New Verb</label>
-                    <input type="text" name="adjective" class="form-control" id="adjective" placeholder="German adjective">
+                    <input type="text" name="adjective" class="form-control" id="adjective"
+                        placeholder="German adjective">
                 </div>
             </div>
             <div class="col-2-md">
@@ -24,8 +25,21 @@
                         placeholder="English definition...">
                 </div>
             </div>
+            <div class="col-3-md ml-4">
+                <div class="form-group">
+                    <label name="adverbtype" for="adverbtype">Common irregular patterns:</label>
+                    <select class="form-control  text-center" id="adverbtype">
+                        <option>"e" to "i" in du form</option>
+                        <option>"e" to "ie" in 2P and 3P singular</option>
+                        <option>"a" to "ä" in 2P and 3P singular</option>
+                        <option>Atypical pattern</option>
+                    </select>
+                </div>
+            </div>
         </div>
     </form>
+
+
 
     <div class="row justify-content-center">
         {{> situations}}
@@ -40,4 +54,4 @@
 
 </div>
 
-<script src="../assets/js/adjectives.js"></script>
+<script src="../assets/js/verbsirreg.js"></script>
