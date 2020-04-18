@@ -2,17 +2,17 @@ var mysql = require("mysql");
 let finalNounObj = require("noun.js");
 
 var connection = mysql.createConnection({
-    host: "localhost",
+    host: process.env.DB_HOST,
 
-    // Your port; if not 3306
+    // Your port
     port: 8080,
 
     // Your username
-    user: "root",
+    user: process.env.DB_USER,
 
     // Your password
-    password: "UNHBootCamp",
-    database: "deutsch_db"
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME
 });
 
 connection.connect(function (err) {

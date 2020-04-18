@@ -1,5 +1,5 @@
-  
 console.log("run noun.js");
+
 
 //Click button to get all the form inputs
 $("#newNoun").on("click", function (event) {
