@@ -11,4 +11,14 @@ router.post("/noun", function(req, res) {
       });
 });
 
+router.post("/phrase", function(req, res) {
+    const phrase = req.body;
+    db.Phrase.create(req.body).then(function(dbNoun) {
+        res.json(dbPhrase);
+      }).catch ( function(err) {
+        res.sendStatus(err.statuscode).send(err.message).end()
+      });
+});
+
+
 module.exports = router;

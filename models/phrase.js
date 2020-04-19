@@ -1,13 +1,8 @@
 module.exports = function(sequelize, DataTypes) {
-    var Noun = sequelize.define("Noun", {
-        singular: DataTypes.STRING,
-        plural: DataTypes.STRING,
-        english: DataTypes.STRING,
-        person: DataTypes.BOOLEAN,
-        animal: DataTypes.BOOLEAN,
-        thing: DataTypes.BOOLEAN,
-        place: DataTypes.BOOLEAN,
-        abstract: DataTypes.BOOLEAN,
+    var Phrase = sequelize.define("Phrase", {
+        germanphrase: DataTypes.STRING,
+        englishphrase: DataTypes.STRING,
+        englishphrase2: DataTypes.STRING,
         athome: DataTypes.BOOLEAN,
         atwork: DataTypes.BOOLEAN,
         dining: DataTypes.BOOLEAN,
@@ -17,7 +12,6 @@ module.exports = function(sequelize, DataTypes) {
         events: DataTypes.BOOLEAN,
         shopping: DataTypes.BOOLEAN
     });
-
   
-    return Noun;
+    return Phrase;
   };
