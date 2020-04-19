@@ -29,7 +29,7 @@ require("handlebars-helpers");
 
 // Import routes and give the server access to them.
 const apiroutes = require("./controllers/api_controller");
-var routes = require("./controllers/htmlcontroller.js");
+var routes = require("./controllers/html_controller.js");
 
 app.use("/api", apiroutes)
 app.use("/", routes);
