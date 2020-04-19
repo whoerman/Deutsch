@@ -1,35 +1,14 @@
-var mysql = require("mysql");
-let finalNounObj = require("noun.js");
+var express = require('express')
+var router = express.Router();
+const db = require("../models");
 
-var connection = mysql.createConnection({
-    host: process.env.DB_HOST,
-
-    // Your port
-    port: 8080,
-
-    // Your username
-    user: process.env.DB_USER,
-
-    // Your password
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME
+router.post("/noun", function(req, res) {
+    const noun = req.body;
+    db.Noun.create(req.body).then(function(dbNoun) {
+        res.json(dbNoun);
+      }).catch ( function(err) {
+        res.sendStatus(err.statuscode).send(err.message).end()
+      });
 });
 
-connection.connect(function (err) {
-    if (err) throw err;
-    console.log("connected as id " + connection.threadId + "\n");
-    createNoun();
-});
-
-function createNoun() {
-    console.log("Inserting a new word...\n");
-    var query = connection.query(
-        "INSERT INTO nouns SET ?", {
-            ...finalNounObj
-        },
-        function (err, res) {
-            if (err) throw err;
-            console.log(res.affectedRows + " noun inserted!\n");
-        }
-    )
-};
+module.exports = router;

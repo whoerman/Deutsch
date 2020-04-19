@@ -15,8 +15,8 @@ $("#newAdjective").on("click", function (event) {
 
 //seperate form groups becuase of multiple handlebars
 let newAdjectiveText = {
-  germanphrase: $("#adjective").val().trim(),
-  englishphrase: $("#englishdefinition").val().trim(),
+  germanadjective: $("#adjective").val().trim(),
+  englishdefinition: $("#englishdefinition").val().trim(),
 };
 
 let newAdjectiveSituation = {

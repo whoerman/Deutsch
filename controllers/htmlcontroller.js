@@ -1,10 +1,12 @@
+console.log("controller.js");
+
 const express = require("express");
 const handlebars = require('express-handlebars');
 
 let router = express.Router();
 
 // Import the model to use its database functions.
-var Basic = require("../models");
+const db = require("../models");
 
 // Create the page routes
 router.get("/", function(req, res) {
