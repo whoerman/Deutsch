@@ -5,13 +5,13 @@ $("#newPhrase").on("click", function (event) {
   event.preventDefault();
 
  //make sure all the forms have data
- if (
-  !$("#germanphrase").val() ||
-  !$("#englishphrase").val() 
-) {
-  alert("Looks like your forgot to input something!");
-  return;
-};
+//  if (
+//   !$("#germanphrase").val() ||
+//   !$("#englishphrase").val() 
+// ) {
+//   alert("Looks like your forgot to input something!");
+//   return;
+// };
 
 //seperate form groups becuase of multiple handlebars
 let newPhraseText = {
@@ -57,5 +57,14 @@ let finalPhraseObj = newPhraseArray.reduce(function (aspect, curr) {
 console.log(finalPhraseObj)
 
 console.log("then i will post finalPhraseObj")
+
+$.ajax({
+  method: "POST",
+  url: "/api/phrase",
+  data: finalPhraseObj,
+}).then(function (response) {
+  console.log(response)
+});
+
 });
 

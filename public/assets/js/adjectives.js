@@ -55,6 +55,15 @@ let finalAdjectiveObj = newAdjectiveArray.reduce(function (aspect, curr) {
 
 console.log(finalAdjectiveObj);
 
-console.log ("then i will post finalAdjectiveObj")
+console.log ("then i will post finalAdjectiveObj");
+
+$.ajax({
+  method: "POST",
+  url: "/api/adjective",
+  data: finalAdjectiveObj,
+}).then(function (response) {
+  console.log(response)
+});
+
 });
 

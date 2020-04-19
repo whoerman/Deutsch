@@ -38,7 +38,7 @@ app.use("/", routes);
 // Starts the server to begin listening with sequelize
 // =============================================================
 const sqSync = {
-  force: true
+  force: false
 };
 
 //force: process.env.NODE_ENV !== "production"
