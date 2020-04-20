@@ -57,5 +57,14 @@ let finalAdverbObj = newAdverbArray.reduce(function (aspect, curr) {
 console.log(finalAdverbObj);
 
 console.log ("then i will post finalAdverbObj")
+
+$.ajax({
+  method: "POST",
+  url: "/api/adverb",
+  data: finalAdverbObj,
+}).then(function (response) {
+  console.log(response)
+});
+
 });
 

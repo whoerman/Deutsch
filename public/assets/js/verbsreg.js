@@ -16,7 +16,7 @@ $("#newVerb").on("click", function (event) {
 //seperate form groups becuase of multiple handlebars
 let newVerbText = {
   germanverb: $("#verb").val().trim(),
-  englishphrase: $("#englishdefinition").val().trim(),
+  englishdefinition: $("#englishdefinition").val().trim(),
 };
 
 let newVerbSituation = {
@@ -55,6 +55,15 @@ let finalregVerbObj = newVerbArray.reduce(function (aspect, curr) {
 
 console.log(finalregVerbObj);
 
-console.log ("then i will post finalregVerbObj")
+console.log ("then i will post finalregVerbObj");
+
+$.ajax({
+  method: "POST",
+  url: "/api/verbreg",
+  data: finalregVerbObj,
+}).then(function (response) {
+  console.log(response)
+});
+
 });
 
