@@ -12,6 +12,5 @@ module.exports = function(sequelize, DataTypes) {
         shopping: DataTypes.BOOLEAN
     });
 
-  
     return Verbreg;
   };
