@@ -16,7 +16,7 @@ $("#newNoun").on("click", function (event) {
     return;
   };
 
-  //seperate form groups becuase of multiple handlebars
+  //seperate form groups because of multiple handlebars
   let newNounText = {
     gender: $("#genderselect").val().trim(),
     singular: $("#singularnoun").val().trim(),
@@ -69,7 +69,8 @@ $("#newNoun").on("click", function (event) {
 
   console.log(finalNounObj)
 
-  console.log("then I will post the finalNounObj")
+
+  // posts the noun Object to the noun database
 
   $.ajax({
     method: "POST",

@@ -49,15 +49,14 @@ router.post("/verbreg", function (req, res) {
 });
 
 //GET Routes
-// router.get("/api/noun", function (req, res) {
-//   db.Noun.findAll({
-//     where: {
-//       singular: true,
-//     }
-//   }).then(function (nounlist) {
-//     console.log(nounlist)
-//   });
-// });
+router.get("/noun", function (req,res) {
+  try {
+    const allNouns = db.Noun.findAll()
+    console.log(allNouns) 
+  } catch (error) {
+    next(error)
+  }
+});
 
 
 module.exports = router;
