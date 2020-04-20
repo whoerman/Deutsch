@@ -1,0 +1,53 @@
+{{> mainheader}}
+
+<div class="container maincontainer">
+    <div class="row justify-content-center m-3">
+        <div class="col-2-md mr-4 mt-4">
+            <h5>Input a German Preposition:</h5>
+        </div>
+        <div class="col-2-md ml-4 mt-4">
+            <h5>Word bank for umlaut: ä ö ü</h5>
+        </div>
+    </div>
+    <form>
+        <div class="row justify-content-center m-3">
+            <div class="col-2-md">
+                <div class="form-group mr-4">
+                    <label for="preposition">New Preposition</label>
+                    <input type="text" name="preposition" class="form-control" id="preposition" placeholder="preposition">
+                </div>
+            </div>
+            <div class="col-2-md">
+                <div class="form-group">
+                    <label for="englishdefinition">English definition</label>
+                    <input type="text" name="englishdefinition" class="form-control" id="englishdefinition"
+                        placeholder="English definitions...">
+                </div>
+            </div>
+            <div class="col-2-md ml-4">
+                <div class="form-group">
+                    <label name="prepositiontype" for="prepositiontype">Preposition type</label>
+                    <select class="form-control  text-center" id="prepositiontype">
+                        <option>Dative</option>
+                        <option>Accusative</option>
+                        <option>Dative or Accusative</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <div class="row justify-content-center">
+        {{> situations}}
+    </div>
+
+
+    <div class="row justify-content-end">
+        <div class="col-2-md m-4">
+            <input id="newPrepostion" class="btn btn-primary" type="button" value="Submit">
+        </div>
+    </div>
+
+</div>
+
+<script src="../assets/js/prepositions.js"></script>

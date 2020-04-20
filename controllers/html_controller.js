@@ -33,8 +33,8 @@ router.get("/adjectives", function(req, res) {
     res.render("adjectives")
 });
 
-router.get("/otherparts", function(req, res) {
-    res.render("otherparts")
+router.get("/prepositions", function(req, res) {
+    res.render("prepositions")
 });
 
 router.get("/verbsirreg", function(req, res) {

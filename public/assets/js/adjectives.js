@@ -1,4 +1,4 @@
-console.log("run adverb.js");
+console.log("run adjectives.js");
 
 //Click button
 $("#newAdjective").on("click", function (event) {
