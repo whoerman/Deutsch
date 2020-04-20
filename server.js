@@ -2,6 +2,8 @@
 // Server.js - This file is the initial starting point for the Node/Express server.
 // *********************************************************************************
 
+console.log("run server.js");
+
 // Dependencies
 // =============================================================
 var express = require("express");
@@ -36,12 +38,13 @@ app.use("/", routes);
 
 // Starts the server to begin listening with sequelize
 // =============================================================
+console.log("in the server.js run the sequelize instance to make the tables");
+
 const sqSync = {
-  force: false
+  force: false   //keps from erasing the tables if false
 };
 
 //force: process.env.NODE_ENV !== "production"
-
 db.sequelize.sync(sqSync).then(function () {
   app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);

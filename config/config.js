@@ -1,4 +1,4 @@
-console.log("config.js");
+console.log("run config.js");
 
 require("dotenv").config();
 

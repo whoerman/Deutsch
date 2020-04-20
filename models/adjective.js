@@ -1,3 +1,5 @@
+console.log("load adjective model within models folder via index.js");
+
 module.exports = function(sequelize, DataTypes) {
     var Adjective = sequelize.define("Adjective", {
         germanadjective: DataTypes.STRING,

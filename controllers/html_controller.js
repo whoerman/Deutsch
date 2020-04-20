@@ -1,4 +1,4 @@
-console.log("controller.js");
+console.log("run html_controller.js");
 
 const express = require("express");
 const handlebars = require('express-handlebars');

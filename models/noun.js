@@ -1,3 +1,5 @@
+console.log("load noun model within models folder via index.js");
+
 module.exports = function(sequelize, DataTypes) {
     var Noun = sequelize.define("Noun", {
         singular: DataTypes.STRING,
