@@ -1,3 +1,4 @@
+### seeds for words in the database
 
 ### nouns - animals
 INSERT INTO nouns (gender, singular, plural, english, englishplural, person, animal, thing, place, abstract, athome, atwork, dining, hotel, travel, people, events, shopping, createdAt, updatedAt) VALUES ('der', 'Hund', 'Hunde', 'dog', 'dogs', false, true, false, false, false, true, false, false, true, false, true, false, false, "2020-04-21 16:07:24", "2020-04-21 16:07:24");
@@ -14,3 +15,4 @@ INSERT INTO nouns (gender, singular, plural, english, englishplural, person, ani
 INSERT INTO nouns (gender, singular, plural, english, englishplural, person, animal, thing, place, abstract, athome, atwork, dining, hotel, travel, people, events, shopping, createdAt, updatedAt) VALUES ('der', 'Mann', 'Männer', 'man', 'men', true, false, false, false, false, true, true, true, true, true, true, true, true, "2020-04-21 16:07:24", "2020-04-21 16:07:24");
 INSERT INTO nouns (gender, singular, plural, english, englishplural, person, animal, thing, place, abstract, athome, atwork, dining, hotel, travel, people, events, shopping, createdAt, updatedAt) VALUES ('der', 'Junge', 'Jungen', 'boy', 'boys', true, false, false, false, false, true, true, true, true, true, true, true, true, "2020-04-21 16:07:24", "2020-04-21 16:07:24");
 INSERT INTO nouns (gender, singular, plural, english, englishplural, person, animal, thing, place, abstract, athome, atwork, dining, hotel, travel, people, events, shopping, createdAt, updatedAt) VALUES ('das', 'Mädchen', 'Mädchen', 'girl', 'girls', true, false, false, false, false, true, true, true, true, true, true, true, true, "2020-04-21 16:07:24", "2020-04-21 16:07:24");
+

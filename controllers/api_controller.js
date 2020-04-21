@@ -3,6 +3,7 @@ console.log("run api_controller.js");
 var express = require('express')
 //Load router-level middleware by using the router.use() and router.METHOD() functions.
 var router = express.Router();
+//make available the db model object set up by index.js
 const db = require("../models");
 
 //POST Routes
@@ -56,8 +57,8 @@ router.post("/verbreg", function (req, res) {
 });
 
 //GET Routes
-router.get("/noun", function (req,res) {
-  
+router.get("/noun/;id", function (req,res) {
+
 });
 
 //PUT Routes  
@@ -70,5 +71,7 @@ router.delete("/noun", function (req,res) {
   
 });
 
-
+//Module in Node.js is a simple or complex functionality organized 
+// in single or multiple JavaScript files which can be reused throughout the Node.js application
+// this router is so the routes can be used elsewhere
 module.exports = router;

@@ -1,7 +1,6 @@
 console.log("run html_controller.js");
 
 const express = require("express");
-const handlebars = require('express-handlebars');
 
 let router = express.Router();
 
@@ -9,8 +8,13 @@ let router = express.Router();
 const db = require("../models");
 
 // Create the page routes
+//res.render renders a view and sends the rendered HTML string to the client
 router.get("/", function(req, res) {
     res.render("index")
+});
+
+router.get("/datadisplay", function(req, res) {
+    res.render("datadisplay")
 });
 
 router.get("/nouns", function(req, res) {
