@@ -1,5 +1,7 @@
 console.log("load phrase model within models folder via index.js");
 
+//Define an Phrase model, representing a table in the database via sequelize.define
+
 module.exports = function(sequelize, DataTypes) {
     var Phrase = sequelize.define("Phrase", {
         germanphrase: DataTypes.STRING,

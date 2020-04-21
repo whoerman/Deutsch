@@ -1,5 +1,7 @@
 console.log("load preposition model within models folder via index.js");
 
+//Define an Preposition model, representing a table in the database via sequelize.define
+
 module.exports = function(sequelize, DataTypes) {
     var Preposition = sequelize.define("Preposition", {
         preposition: DataTypes.STRING,

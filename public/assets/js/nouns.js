@@ -10,7 +10,8 @@ $("#newNoun").on("click", function (event) {
     !$("#genderselect").val() ||
     !$("#singularnoun").val() ||
     !$("#pluralnoun").val() ||
-    !$("#englishdefinition").val()
+    !$("#englishdefinition").val() ||
+    !$("#englishplural").val()
   ) {
     alert("Looks like your forgot to input something!");
     return;
@@ -22,6 +23,7 @@ $("#newNoun").on("click", function (event) {
     singular: $("#singularnoun").val().trim(),
     plural: $("#pluralnoun").val().trim(),
     english: $("#englishdefinition").val().trim(),
+    englishplural: $("#englishplural").val().trim(),
   };
 
   let newNounType = {
@@ -81,4 +83,5 @@ $("#newNoun").on("click", function (event) {
   });
 
 });
+
 

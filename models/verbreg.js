@@ -1,5 +1,7 @@
 console.log("load regular verb model within models folder via index.js");
 
+//Define an Verbreg model, representing a table in the database via sequelize.define
+
 module.exports = function(sequelize, DataTypes) {
     var Verbreg = sequelize.define("Verbreg", {
         germanverb: DataTypes.STRING,

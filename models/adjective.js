@@ -1,5 +1,7 @@
 console.log("load adjective model within models folder via index.js");
 
+//Define an Adjective model, representing a table in the database via sequelize.define
+
 module.exports = function(sequelize, DataTypes) {
     var Adjective = sequelize.define("Adjective", {
         germanadjective: DataTypes.STRING,
@@ -14,6 +16,5 @@ module.exports = function(sequelize, DataTypes) {
         shopping: DataTypes.BOOLEAN
     });
 
-  
-    return Adjective;
+    return Adjective; 
   };
