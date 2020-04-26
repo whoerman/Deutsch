@@ -57,8 +57,8 @@ router.post("/verbreg", function (req, res) {
 });
 
 //GET Routes
-router.get("/noun/;id", function (req,res) {
-
+router.get("/noun/:id", function (req,res) {
+  
 });
 
 //PUT Routes  

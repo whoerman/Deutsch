@@ -1,0 +1,230 @@
+﻿id,gender,singular,english,plural,english,category1,category2,category3
+1,die,”Mutter”,”mother”,”Mütter”,”mothers”,”People”,”Family”,”Other”
+2,der,”Vater”,”father”,”Väter”,”fathers”,”People”,”Family”,”Other”
+3,die,”Schwester”,”sister”,”Schwestern”,”sisters”,”People”,”Family”,”Other”
+4,der ,”Bruder”,”brother”,”Brüder”,”brothers”,”People”,”Family”,”Other”
+5,das,”Kind”,”child”,”Kinder”,”children”,”People”,”Family”,”Other”
+6,die,”Tante”,”aunt”,”Tanten”,”aunts”,”People”,”Family”,”Other”
+7,der,”Onkel”,”uncle”,”Onkel”,”uncles”,”People”,”Family”,”Other”
+8,die,”Groβmutter ”,”grandmother”,”Groβmütter”,”grandmothers”,”People”,”Family”,”Other”
+9,der ,”Groβvater ”,”grandfather”,”Groβväter”,”grandfathers”,”People”,”Family”,”Other”
+10,die,”Cousine”,”female cousin”,”Cousinen”,”female cousins”,”People”,”Family”,”Other”
+11,der,”Cousin”,”male cousin”,”Cousins”,”male cousins”,”People”,”Family”,”Other”
+12,der,”Freund”,”boyfriend”,”Freunde”,”boyfriends”,”People”,”Family”,”Other”
+13,die,”Freundin”,”girlfriend”,”Freundinnen”,”girlfriends”,”People”,”Family”,”Other”
+14,der,”Mann”,”man”,”Männer”,”men”,”People”,”Family”,”Other”
+15,die,”Frau”,”woman”,”Frauen”,”women”,”People”,”Family”,”Other”
+16,der,”Kollege”,”male colleague”,”Kollegen”,”male colleagues”,”People”,”Profession”,”Other”
+17,die,”Kollegin”,”female colleague”,”Kolleginnen”,”female colleagues”,”People”,”Profession”,”Other”
+18,der,”Partner”,”male partner”,”Partner”,”male partners”,”People”,”Profession”,”Other”
+19,die,”Partnerin”,”female partner”,”Partnerinnen”,”female partners”,”People”,”Profession”,”Other”
+20,das,”Haus”,”house”,”Häuser”,”houses”,”Household Objects”,”Other”,”Other”
+21,das,”Bett”,”bed”,”Betten”,”beds”,”Household Objects”,”Other”,”Other”
+22,der,”Tisch”,”table”,”Tische”,”tables”,”Household Objects”,”Other”,”Other”
+23,die,”Tür”,”door”,”Türen”,”doors”,”Household Objects”,”Other”,”Other”
+24,das,”Kissen”,”pillow”,”Kissen”,”pillows”,”Household Objects”,”Other”,”Other”
+25,das,”Fenster”,”window”,”Fenster”,”windows”,”Household Objects”,”Other”,”Other”
+26,die,”Wand”,”wall”,”Wände”,”walls”,”Household Objects”,”Other”,”Other”
+27,der,”Boden”,”floor”,”Böden”,”floors”,”Household Objects”,”Other”,”Other”
+28,das,”Schlafzimmer”,”bedroom”,”Schlafzimmer”,”bedrooms”,”Household Objects”,”Other”,”Other”
+29,das,”Badezimmer”,”bathroom”,”Badezimmer”,”bathrooms”,”Household Objects”,”Other”,”Other”
+30,die,”Küche ”,”kitchen”,”Küchen”,”kitchens”,”Household Objects”,”Other”,”Other”
+31,die,”Wohnung”,”living room”,”Wohnungen”,”living rooms”,”Household Objects”,”Other”,”Other”
+32,der,”Keller”,”cellar”,”Keller”,”cellars”,”Household Objects”,”Other”,”Other”
+33,die,”Couch”,”couch”,”Couches”,”couches”,”Household Objects”,”Other”,”Other”
+34,der,”Stuhl”,”chair”,”Stühle”,”chairs”,”Household Objects”,”Other”,”Other”
+35,das,”Waschbecken”,”sink”,”Waschbecken”,”sinks”,”Household Objects”,”Other”,”Other”
+36,die,”Toilette”,”toilet”,”Toiletten”,”toilets”,”Household Objects”,”Other”,”Other”
+37,die,”Badewanne”,”bathtub”,”Badewannen”,”bathtubs”,”Household Objects”,”Other”,”Other”
+38,die,”Dusche”,”shower”,”Duschen”,”showers”,”Household Objects”,”Other”,”Other”
+39,die,”Lampe”,”lamp”,”Lampen”,”lamps”,”Household Objects”,”Other”,”Other”
+40,der,”Müll ”,”trash”,”Müll ”,”trash”,”Household Objects”,”Other”,”Other”
+41,der,”Kühlschrank”,”refridgerator”,”Kühlschränken”,”refridgerators”,”Household Objects”,”Other”,”Other”
+42,der,”Ofen”,”oven”,”Öfen”,”ovens”,”Household Objects”,”Other”,”Other”
+43,der,”Mikrowellenherd”,”microwave”,”Mikrowellenherde”,”microwaves”,”Household Objects”,”Other”,”Other”
+44,die,”Geschirrspülmaschine ”,”dishwasher”,”Geschirrspüler”,”dishwashers”,”Household Objects”,”Other”,”Other”
+45,das,”Kabinett”,”cabinet”,”Kabinette”,”cabinets”,”Household Objects”,”Other”,”Other”
+46,das,”Auto”,”car”,”Autos”,”cars”,”Transportation”,”Other”,”Other”
+47,der,”Lustkraftwagen”,”truck”,”Lustkraftwagen”,”trucks”,”Transportation”,”Other”,”Other”
+48,der,”Bus”,”bus”,”Busse”,”buses”,”Transportation”,”Other”,”Other”
+49,das,”Flugzeug”,”plane”,”Flugzeuge”,”planes”,”Transportation”,”Other”,”Other”
+50,der,”Zug”,”train”,”Züge”,”trains”,”Transportation”,”Other”,”Other”
+51,das,”Boot”,”boat”,”Boote”,”boats”,”Transportation”,”Other”,”Other”
+52,das,”Taxi”,”taxi”,”Taxis”,”taxis”,”Transportation”,”Other”,”Other”
+53,der,”Schulbus”,”school bus”,”Schulbusse”,”school buses”,”Transportation”,”Other”,”Other”
+54,das,”Ticket”,”ticket”,”Tickets”,”tickets”,”Transportation”,”Other”,”Other”
+55,der,”Pass”,”pass”,”Pässe”,”passes”,”Transportation”,”Other”,”Other”
+56,der,”Sattelzug”,”semi truck”,”Sattelzüge”,”semi trucks”,”Transportation”,”Other”,”Other”
+57,die,”Stadt”,”city”,”Städte”,”cities”,”Locations”,”Other”,”Other”
+58,das,”Land”,”country”,”Länder”,”countries”,”Locations”,”Other”,”Other”
+59,der,”Berg”,”mountain”,”Berge”,”mountains”,”Locations”,”Other”,”Other”
+60,die,”Ebenen”,”plains”,”Ebenen”,”plains”,”Locations”,”Other”,”Other”
+61,die,”Wüste ”,”desert”,”Wüsten”,”deserts”,”Locations”,”Other”,”Other”
+62,die,”Schule”,”school”,”Schulen”,”schools”,”Locations”,”Other”,”Other”
+63,die,”Arbeit”,”work”,”Arbeiten”,”workplaces”,”Locations”,”Other”,”Other”
+64,der,”Pilot”,”male pilot”,”Piloten”,”male pilots”,”Occupations”,”Profession”,”Other”
+65,die,”Piloten”,”female pilot”,”Piloten”,”female pilots”,”Occupations”,”Profession”,”Other”
+66,der,”Doktor”,”male doctor”,”Doktoren”,”male doctors”,”Occupations”,”Profession”,”Other”
+67,die,”Doktorin”,”female doctor”,”Doktorinnen”,”female doctors”,”Occupations”,”Profession”,”Other”
+68,der ,”Zahnarzt”,”male dentist”,”Zahnärzte”,”male dentists”,”Occupations”,”Profession”,”Other”
+69,die,”Zahnarztin”,”female dentist”,”Zahnärzte”,”female dentists”,”Occupations”,”Profession”,”Other”
+70,der,”Bibliothekar”,”male librarian”,”Bibliothekare”,”male librarians”,”Occupations”,”Profession”,”Other”
+71,die,”Bibliothekarin”,”female librarian”,”Bibliothekare”,”female librarians”,”Occupations”,”Profession”,”Other”
+72,der,”Friseur”,”male hairdresser”,”Friseure”,”male hairdressers”,”Occupations”,”Profession”,”Other”
+73,die,”Friseurin”,”female hairdresser”,”Friseurinnen”,”female hairdressers”,”Occupations”,”Profession”,”Other”
+74,der,”Rechtsanwalt”,”male lawyer”,”Rechtsanwälte”,”male lawyers”,”Occupations”,”Profession”,”Other”
+75,die,”Rechtsanwältin ”,”female lawyer”,”Rechtsanwälte”,”female lawyers”,”Occupations”,”Profession”,”Other”
+76,der,”Verkäufer”,”salesman”,”Verkäufer”,”salesmen”,”Occupations”,”Profession”,”Other”
+77,die,”Verkäuferin ”,”saleswoman”,”Verkäufer”,”saleswomen”,”Occupations”,”Profession”,”Other”
+78,der,”Busfahrer”,”male bus driver”,”Busfahrer”,”male bus drivers”,”Occupations”,”Profession”,”Other”
+79,die,”Busfahrerin ”,”female bus driver”,”Busfahrerinnen”,”female bus drivers”,”Occupations”,”Profession”,”Other”
+80,der,”Lehrer”,”male teacher”,”Lehrer”,”male teachers”,”Occupations”,”Profession”,”Other”
+81,die ,”Lehrerin”,”female teacher”,”Lehrerinnen”,”female teachers”,”Occupations”,”Profession”,”Other”
+82,der,”Professor”,”male professor”,”Professoren”,”male professors”,”Occupations”,”Profession”,”Other”
+83,die,”Professorin ”,”female professor”,”Professorinnen”,”female professors”,”Occupations”,”Profession”,”Other”
+84,der,”Angestellter”,”male clerk”,”Angestellte”,”male clerks”,”Occupations”,”Profession”,”Other”
+85,die,”Angestellte ”,”female clerk”,”Angestellte”,”female clerks”,”Occupations”,”Profession”,”Other”
+86,der,”Polizeibeamte”,”male police officer”,”Polizeibeamten”,”male police officers”,”Occupations”,”Profession”,”Other”
+87,die,”Polizeibeamtin ”,”female police officer”,”Polizeibeamtinnen”,”female police officers”,”Occupations”,”Profession”,”Other”
+88,der,”Feuerwehrmann”,”male firefighter”,”Feuerwehrleute”,”male firefighters”,”Occupations”,”Profession”,”Other”
+89,die,”Feuerwehrfrau”,”female firefighter”,”Feuerwehrfrauen”,”female firefighters”,”Occupations”,”Profession”,”Other”
+90,der,”Hund ”,”dog”,”Hunde”,”dogs”,”Animals”,”Pets”,”Other”
+91,die,”Katze ”,”cat”,”Katzen”,”cats”,”Animals”,”Pets”,”Other”
+92,der,”Fisch ”,”fish”,”Fische”,”fish”,”Animals”,”Pets”,”Other”
+93,der,”Vogel ”,”bird”,”Vögel”,”birds”,”Animals”,”Pets”,”Other”
+94,die,”Schlange ”,”snake”,”Schlangen”,”snakes”,”Animals”,”Pets”,”Other”
+95,die,”Maus ”,”mouse”,”Mäuse”,”mice”,”Animals”,”Pets”,”Other”
+96,die,”Rennmaus ”,”gerbil”,”Rennmäuse”,”gerbils”,”Animals”,”Pets”,”Other”
+97,der,”Hamster ”,”hamster”,”Hamster”,”hamsters”,”Animals”,”Pets”,”Other”
+98,das,”Frettchen”,”ferret”,”Frettchen”,”ferrets”,”Animals”,”Pets”,”Other”
+99,das,”Hemd ”,”shirt”,”Hemden”,”shirts”,”Shopping”,”Clothing Items”,”Other”
+100,die,”Hose ”,”pants”,”Hosen”,”pants”,”Shopping”,”Clothing Items”,”Other”
+101,der,”Mantel ”,”coat”,”Mäntel”,”coats”,”Shopping”,”Clothing Items”,”Other”
+102,die,”Socken ”,”socks”,”Socken ”,”socks”,”Shopping”,”Clothing Items”,”Other”
+103,die,”Schuhe ”,”shoes”,”Schuhe ”,”shoes”,”Shopping”,”Clothing Items”,”Other”
+104,die,”Shorts ”,”shorts”,”Shorts ”,”shorts”,”Shopping”,”Clothing Items”,”Other”
+105,die,”Unterwäsche ”,”underwear”,”Unterwäsche ”,”underwear”,”Shopping”,”Clothing Items”,”Other”
+106,die,”Bluse ”,”blouse”,”Bluse ”,”blouses”,”Shopping”,”Clothing Items”,”Other”
+107,der,”Büstenhalter”,”bra”,”Büstenhalter”,”bras”,”Shopping”,”Clothing Items”,”Other”
+108,die,”Jeans ”,”jeans”,”Jeans”,”jeans”,”Shopping”,”Clothing Items”,”Other”
+109,der,”Gürtel ”,”belt”,”Gürteln”,”belts”,”Shopping”,”Clothing Items”,”Other”
+110,der,”Hut ”,”hat”,”Hüte”,”hats”,”Shopping”,”Clothing Items”,”Other”
+111,die,”Krawatte ”,”tie”,”Krawatten”,”ties”,”Shopping”,”Clothing Items”,”Other”
+112,das,”Kleid ”,”dress”,”Kleider”,”dresses”,”Shopping”,”Clothing Items”,”Other”
+113,der,”Rock ”,”skirt”,”Röcke”,”skirts”,”Shopping”,”Clothing Items”,”Other”
+114,die,”Stiefel”,”boots”,”Stiefel”,”boots”,”Shopping”,”Clothing Items”,”Other”
+115,der,”Geldbeutel ”,”purse”,”Geldbeutel”,”purses”,”Shopping”,”Personal Belongings”,”Other”
+116,das,”Handy ”,”cellphone”,”Handys”,”cellphones”,”Shopping”,”Personal Belongings”,”Other”
+117,die,”Schlüssel ”,”keys”,”Schlüssel ”,”keys”,”Shopping”,”Personal Belongings”,”Other”
+118,das,”Portemonnaie”,”wallet”,”Portemonnaies”,”wallets”,”Shopping”,”Personal Belongings”,”Other”
+119,das,”Geld ”,”money”,”Gelder”,”money”,”Shopping”,”Personal Belongings”,”Other”
+120,die,”Uhr ”,”watch”,”Uhren”,”watches”,”Shopping”,”Personal Belongings”,”Other”
+121,der,”Schmuck ”,”jewelry”,”Schmucke”,”jewelry”,”Shopping”,”Personal Belongings”,”Other”
+122,der,”Lippenstift”,”chapstick”,”Lippenstifte”,”chapsticks”,”Shopping”,”Personal Belongings”,”Other”
+123,die,”Tasche ”,”bag”,”Taschen”,”bags”,”Shopping”,”Personal Belongings”,”Other”
+124,der,”Laptop ”,”laptop”,”Laptops”,”laptops”,”Shopping”,”Personal Belongings”,”Other”
+125,das,”Notebook ”,”notebook”,”Notebooks”,”notebooks”,”Shopping”,”Personal Belongings”,”Other”
+126,die,”Kreditkarte ”,”credit card”,”Kreditkarten”,”credit cards”,”Shopping”,”Personal Belongings”,”Other”
+127,der,”Führerschein”,”driver’s license”,”Führerscheinen”,”driver’s licenses”,”Shopping”,”Personal Belongings”,”Other”
+128,das,”Brot ”,”bread”,”Brote”,”breads”,”Dining”,”Food”,”Bread”
+129,das,”Müsli ”,”cereal”,”Müsli ”,”cereals”,”Dining”,”Food”,”Breakfast”
+130,das,”Haferflocken ”,”oatmeal”,”Haferflocken ”,”oatmeals”,”Dining”,”Food”,”Breakfast”
+131,die,”Pfannkuchen ”,”pancakes”,”Pfannkuchen”,”pancakes”,”Dining”,”Food”,”Breakfast”
+132,der,”Speck ”,”bacon”,”Specke”,”bacons”,”Dining”,”Food”,”Breakfast”
+133,der,”Honig”,”honey”,”Honige ”,”honeys”,”Dining”,”Food”,”Breakfast”
+134,die,”Marmelade”,”jam”,”Marmeladen”,”jams”,”Dining”,”Food”,”Breakfast”
+135,der,”Zucker ”,”sugar”,”Zucker”,”sugars”,”Dining”,”Food”,”Condiment”
+136,das,”Öl”,”oil”,”Öle”,”oils”,”Dining”,”Food”,”Condiment”
+137,der,”Essig”,”vinegar”,”Essige”,”vinegars”,”Dining”,”Food”,”Condiment”
+138,das,”Salz”,”salt”,”Salze”,”salts”,”Dining”,”Food”,”Condiment”
+139,der,”Pfeffer”,”pepper”,”Pfeffer”,”peppers”,”Dining”,”Food”,”Condiment”
+140,die,”Butter”,”buter”,”Butter”,”butters”,”Fdining”,”Food”,”Condiments”
+141,der,”Kuchen ”,”cake”,”Kuchen”,”cakes”,”Dining”,”Food”,”Dessert”
+142,die,”Schokolade ”,”chocolate”,”Schokoladen”,”chocolates”,”Dining”,”Food”,”Dessert”
+143,die,”Milch ”,”milk”,”Milchen”,”milks”,”Dining”,”Food”,”Drink”
+144,das,”Obst ”,”fruit”,”Obst ”,”fruits”,”Dining”,”Food”,”Fruit”
+145,der,”Apfel”,”apple”,”Äpfel ”,”apples”,”Dining”,”Food”,”Fruit”
+146,die,”Erdbeere”,”strawberry”,”Erdbeeren”,”strawberries”,”Dining”,”Food”,”Fruit”
+147,die,”Blaubeere”,”blueberry”,”Blaubeeren”,”blueberries”,”Dining”,”Food”,”Fruit”
+148,die,”Brombeere”,”blackberry”,”Brombeeren”,”blackberries”,”Dining”,”Food”,”Fruit”
+149,die ,”Himbeere”,”raspberry”,”Himbeeren”,”raspberries”,”Dining”,”Food”,”Fruit”
+150,die,”Moosbeere”,”cranberry”,”Moosbeeren”,”cranberries”,”Dining”,”Food”,”Fruit”
+151,die,”Kirsche”,”cherry”,”Kirschen”,”cherries”,”Dining”,”Food”,”Fruit”
+152,die,”Traube”,”grape”,”Trauben”,”grapes”,”Dining”,”Food”,”Fruit”
+153,die,”Orange”,”orange”,”Orangen”,”oranges”,”Dining”,”Food”,”Fruit”
+154,die,”Pflaume”,”plum”,”Pflaumen”,”plums”,”Dining”,”Food”,”Fruit”
+155,die,”Birne”,”pear”,”Birnen”,”pears”,”Dining”,”Food”,”Fruit”
+156,die,”Banane”,”banana”,”Bananen”,”bananas”,”Dining”,”Food”,”Fruit”
+157,die,”Feige”,”fig”,”Feigen”,”figs”,”Dining”,”Food”,”Fruit”
+158,die,”Ananas”,”pineapple”,”Ananasse ”,”pineapples”,”Dining”,”Food”,”Fruit”
+159,der,”Pfirsich”,”peach”,”Pfirsiche”,”peaches”,”Dining”,”Food”,”Fruit”
+160,die,”Wassermelone”,”watermelon”,”Wassermelonen”,”watermelons”,”Dining”,”Food”,”Fruit”
+161,die,”Zitrone”,”lemon”,”Zitronen”,”lemons”,”Dining”,”Food”,”Fruit”
+162,die,”Aprikose”,”apricot”,”Aprikosen”,”apricots”,”Dining”,”Food”,”Fruit”
+163,die ,”Granatapfel ”,”pomegranate”,”Granatäpfel ”,”pomegranates”,”Dining”,”Food”,”Fruit”
+164,die,”Kiwi”,”kiwi”,”Kiwis”,”kiwis”,”Dining”,”Food”,”Fruit”
+165,das,”Frühstuck ”,”breakfast”,”Frühstück”,”breakfasts”,”Dining”,”Food”,”Meal”
+166,das,”Mittagessen ”,”lunch ”,”Mittagessen”,”lunches”,”Dining”,”Food”,”Meal”
+167,das,”Abendessen ”,”dinner”,”Abendessen”,”dinners”,”Dining”,”Food”,”Meal”
+168,der,”Snack ”,”snack”,”Snacks”,”snacks”,”Dining”,”Food”,”Meal”
+169,das,”Dessert”,”dessert”,”Desserts”,”desserts”,”Dining”,”Food”,”Meal”
+170,das,”Fleisch ”,”meat”,”Fleisch ”,”meats”,”Dining”,”Food”,”Meat”
+171,der,”Schinken ”,”ham”,”Schinken ”,”ham”,”Dining”,”Food”,”Meat”
+172,die,”Wurst”,”sausage”,”Wurst”,”sausage”,”Dining”,”Food”,”Meat”
+173,das,”Schweinefleisch”,”pork”,”Schweinefleisch”,”pork”,”Dining”,”Food”,”Meat”
+174,das,”Rindfleisch”,”beef”,”Rindfleisch”,”beef”,”Dining”,”Food”,”Meat”
+175,das,”Hühnerfleisch”,”chicken”,”Hühnerfleisch”,”chicken”,”Dining”,”Food”,”Meat”
+176,das,”Putenfleisch”,”turkey”,”Putenfleisch”,”turkey”,”Dining”,”Food”,”Meat”
+177,der,”Fisch”,”fish”,”Fisch”,”fish”,”Dining”,”Food”,”Meat”
+178,der,”Tofu ”,”tofu”,”Tofu ”,”tofus”,”Dining”,”Food”,”Meat”
+179,das,”Messer”,”knife”,”Messer”,”knives”,”Dining”,”Utensils”,”Other”
+180,die,”Gabel”,”fork”,”Gabeln”,”forks”,”Dining”,”Utensils”,”Other”
+181,der,”Löffel”,”spoon”,”Löffel”,”spoons”,”Dining”,”Utensils”,”Other”
+182,das,”Steakmesser”,”steak knife”,”Steakmesser”,”steak knives”,”Dining”,”Utensils”,”Other”
+183,der,”Teller”,”plates”,”Teller”,”plates”,”Dining”,”Utensils”,”Other”
+184,das,”Glas”,”glass”,”Gläser”,”glasses”,”Dining”,”Utensils”,”Other”
+185,die,”Tasse”,”cup”,”Tassen”,”cups”,”Dining”,”Utensils”,”Other”
+186,der,”Flasche”,”bottle”,”Flaschen”,”bottles”,”Dining”,”Utensils”,”Other”
+187,der,”Serviette”,”napkin”,”Servietten”,”napkins”,”Dining”,”Utensils”,”Other”
+188,der,”Tisch”,”table”,”Tische”,”tables”,”Dining”,”Seating”,”Other”
+189,der,”Stuhl”,”chair”,”Stühle”,”chairs”,”Dining”,”Seating”,”Other”
+190,die,”Bar”,”bar”,”Bars”,”bars”,”Dining”,”Seating”,”Other”
+191,die,”Reservierung”,”reservation”,”Reservierungen”,”reservations”,”Dining”,”Seating”,”Other”
+192,das,”Ei ”,”egg”,”Eier”,”eggs”,”Dining”,”Food”,”Other”
+193,der,”Käse”,”cheese”,”Käse”,”cheeses”,”Dining ”,”Food”,”Other”
+194,die,”Nudel ”,”noodle”,”Nudeln”,”noodles”,”Dining”,”Food”,”Other”
+195,die,”Pizza ”,”pizza”,”Pizzen”,”pizzas”,”Dining”,”Food”,”Other”
+196,die,”Cracker ”,”cracker”,”Cracker ”,”crackers”,”Dining”,”Food”,”Other”
+197,die,”Nuss”,”nut”,”Nüsse”,”nuts”,”Food”,”Food”,”Other”
+198,die,”Lasagna ”,”lasagna”,”Lasagna ”,”lasagnas”,”Food”,”Food”,”Other”
+199,die,”Spaghetti ”,”spaghetti”,”Spaghetti”,”spaghettis”,”Food”,”Food”,”Other”
+200,die,”Makkaroni ”,”macaroni ”,”Makkaroni”,”macaroni”,”Food”,”Food”,”Other”
+201,die,”Erdnussbutter ”,”peanut butter”,”Erdnussbutter ”,”peanut butters”,”Food”,”Food”,”Other”
+202,das,”Gelee ”,”jelly”,”Gelees”,”jellies”,”Food”,”Food”,”Other”
+203,das,”Sandwich ”,”sandwich”,”Sandwiches”,”sandwiches”,”Food”,”Food”,”Other”
+204,der,”Burger ”,”burger ”,”Burger”,”burgers”,”Food”,”Food”,”Other”
+205,die,”Pommes ”,”fries”,”Pommes”,”fries”,”Food”,”Food”,”Other”
+206,die,”Suppe ”,”soup”,”Suppen”,”soups”,”Food”,”Food”,”Other”
+207,der,”Reis ”,”rice”,”Reise”,”rices”,”Food”,”Food”,”Other”
+208,die,”Bohnen ”,”beans ”,”Bohnen ”,”beans ”,”Food”,”Food”,”Other”
+209,der,”Burrito ”,”burrito”,”Burritos”,”burritos”,”Food”,”Food”,”Other”
+210,die,”Pasta”,”pasta”,”Pasten”,”pastas”,”Food”,”Food”,”Other”
+211,das,”Stück”,”piece”,”Stücke”,”pieces”,”Dining”,”Food”,”Portion”
+212,die,”Scheibe”,”slice”,”Scheiben”,”slices”,”Dining ”,”Food”,”Portion”
+213,das,”Gemüse ”,”vegetable”,”Gemüse ”,”vegetables”,”Dining”,”Food”,”Vegetable”
+214,die,”Karotte ”,”carrot”,”Karotten”,”carrots”,”Dining”,”Food”,”Vegetable”
+215,die,”Tomate ”,”tomato”,”Tomaten”,”tomatos”,”Dining”,”Food”,”Vegetable”
+216,die,”Kartoffel ”,”potato”,”Kartoffeln”,”potatoes”,”Dining”,”Food”,”Vegetable”
+217,der,”Sellerie ”,”celery”,”Selleries”,”celerys”,”Dining”,”Food”,”Vegetable”
+218,der,”Brokkoli ”,”broccoli”,”Brokkoli”,”broccolis”,”Dining”,”Food”,”Vegetable”
+219,die,”Zwiebel ”,”onion”,”Zwiebeln”,”onions”,”Dining”,”Food”,”Vegetable”
+220,die,”Gurke ”,”cucumber ”,”Gurken”,”cucumbers”,”Dining”,”Food”,”Vegetable”
+221,die,”Zucchini ”,”zucchini”,”Zucchini”,”zucchinis”,”Dining”,”Food”,”Vegetable”
+222,der,”Rosenkohl ”,”brussel sprouts”,”Rosenkohl ”,”brussel sprouts”,”Dining”,”Food”,”Vegetable”
+223,der,”Pilz”,”large mushroom”,”Pilze”,”mushrooms”,”Dining”,”Food”,”Vegetable”
+224,der,”Champignon”,”small mushroom”,”Champignons ”,”mushrooms”,”Dining”,”Food”,”Vegetable”
+225,der,”Kohl”,”cabbage”,”Kohle”,”cabbages”,”Dining”,”Food”,”Vegetable”
+226,der,”Kraut”,”kraut”,”Kräuter”,”krauts”,”Dining”,”Food”,”Vegetable”
+227,die,”Bohnen”,”beans”,”Bohnen”,”beans”,”Dining”,”Food”,”Vegetable”
+228,die,”Erbsen”,”peas”,”Erbsen”,”peas”,”Dining”,”Food”,”Vegetable”
+229,der,”Salat ”,”salad”,”Salate”,”salads”,”Dining”,”Food”,”Vegetable”
