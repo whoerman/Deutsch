@@ -8,7 +8,7 @@ USE deutsch_db;
 ### need to put the csv into this special folder otherwaise permission denied
 ### need to put the id numbers in the csv file before you load it
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SampleNouns.csv' 
-INTO TABLE sampleNouns 
+INTO TABLE nouns 
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
